@@ -1,0 +1,23 @@
+.container {
+    gap: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.card-title {
+    font-family: var(--title-font);
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.card-text {
+    font-family: var(--title-font);
+    font-size: 1.2rem;
+}
+
+.btn {
+    width: 100%;
+    font-family: 'RocknRoll one';
+    font-size: 1.2rem;
+}

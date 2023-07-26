@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Istok+Web&family=RocknRoll+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap');
+
+:root {
+
+    /* background color */
+    --background: #FCFCFC;
+    --button-color: #55C7DC;
+    --title-color: #F76868;
+
+    /* font family */
+    --font-family: 'Istok web';
+    --font-family-nd: 'RocknRoll One';
+
+    /* font size */
+    --nav-font: 2.5rem;
+
+    /* font weight */
+    --nav-fw: bold;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--background);
+}
+
+html {
+    font-size: 10px;
+}
