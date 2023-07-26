@@ -14,9 +14,9 @@ function Navbar () {
             </div>
             <nav>
                 <ul>
-                    <li><Link to="/" style={{textDecoration: 'none'}} className='nav_link active'>Home</Link></li>
-                    <li><Link to="/products" style={{textDecoration: 'none'}} className='nav_link'>Products</Link></li>
-                    <li><Link to="/cart" style={{textDecoration: 'none'}} className='nav_link'>Cart</Link></li>
+                    <li><Link to="/" style={{textDecoration: 'none'}} className='nav_links active'>Home</Link></li>
+                    <li><Link to="/products" style={{textDecoration: 'none'}} className='nav_links'>Products</Link></li>
+                    <li><Link to="/cart" style={{textDecoration: 'none'}} className='nav_links'>Cart</Link></li>
                 </ul>
             </nav>
             <div className="cart-icon">
